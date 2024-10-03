@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.card-box {
+  max-width: 250px;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.card-box .card-img {
+  max-width: 200px;
+  min-height: 200px;
+}
+
+.pagination-box {
+  margin-top: 20px;
+}
